@@ -26,3 +26,17 @@
 [DEBUG] 2024-02-21 21:40:21.133 [main] Payment - Clicked add to cart button
 [DEBUG] 2024-02-21 21:40:21.867 [main] Payment - Clicked remove item from cart
 [DEBUG] 2024-02-21 21:40:23.904 [main] Payment - TEST SUCCEEDED - No 'Proceed to checkout' button = the cart is empty
+[INFO ] 2024-02-23 10:31:30.731 [main] AddProductToCart - Add a product to Empty cart
+[DEBUG] 2024-02-23 10:31:31.495 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-02-23 10:31:33.352 [main] AddProductToCart - Clicked add to cart button
+[INFO ] 2024-02-23 10:31:33.397 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 1
+[INFO ] 2024-02-23 10:31:34.145 [main] AddProductToCart - Add a product that already exist in the cart
+[DEBUG] 2024-02-23 10:31:35.151 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-02-23 10:31:35.879 [main] AddProductToCart - Clicked add to cart button - first time
+[DEBUG] 2024-02-23 10:31:36.481 [main] AddProductToCart - Clicked Add the same item again
+[INFO ] 2024-02-23 10:31:36.510 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 2
+[INFO ] 2024-02-23 10:31:37.249 [main] AddProductToCart - Add a product to non empty cart
+[DEBUG] 2024-02-23 10:31:38.205 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-02-23 10:31:38.839 [main] AddProductToCart - Clicked add to cart button
+[DEBUG] 2024-02-23 10:31:39.730 [main] AddProductToCart - Clicked Add for 3 more items
+[INFO ] 2024-02-23 10:31:39.759 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 4
