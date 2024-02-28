@@ -40,3 +40,30 @@
 [DEBUG] 2024-02-23 10:31:38.839 [main] AddProductToCart - Clicked add to cart button
 [DEBUG] 2024-02-23 10:31:39.730 [main] AddProductToCart - Clicked Add for 3 more items
 [INFO ] 2024-02-23 10:31:39.759 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 4
+[INFO ] 2024-02-28 20:33:31.864 [main] Payment - Pay with empty cart
+[DEBUG] 2024-02-28 20:33:33.215 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:33:33.236 [main] Payment - TEST SUCCEEDED - No 'Proceed to checkout' button
+[INFO ] 2024-02-28 20:33:42.051 [main] Payment - Pay with empty cart
+[DEBUG] 2024-02-28 20:33:43.343 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:33:43.358 [main] Payment - TEST SUCCEEDED - No 'Proceed to checkout' button
+[INFO ] 2024-02-28 20:45:21.863 [main] Payment - Pay with empty cart
+[DEBUG] 2024-02-28 20:45:23.307 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:45:23.328 [main] Payment - TEST SUCCEEDED - No 'Proceed to checkout' button
+[INFO ] 2024-02-28 20:46:40.954 [main] Payment - Pay with empty cart
+[DEBUG] 2024-02-28 20:46:41.912 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:46:42.333 [main] Payment - TEST SUCCEEDED - No 'Proceed to checkout' button
+[INFO ] 2024-02-28 20:47:04.198 [main] Payment - Add one existing product to cart
+[DEBUG] 2024-02-28 20:47:04.819 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:47:05.500 [main] Payment - Clicked add to cart button
+[INFO ] 2024-02-28 20:47:22.696 [main] Payment - Add one existing product to cart
+[DEBUG] 2024-02-28 20:47:23.316 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:47:24.075 [main] Payment - Clicked add to cart button
+[INFO ] 2024-02-28 20:48:10.452 [main] Payment - Add one existing product to cart
+[DEBUG] 2024-02-28 20:48:11.078 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:48:11.720 [main] Payment - Clicked add to cart button
+[INFO ] 2024-02-28 20:49:00.701 [main] Payment - Add one existing product to cart
+[DEBUG] 2024-02-28 20:49:01.378 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:49:02.120 [main] Payment - Clicked add to cart button
+[INFO ] 2024-02-28 20:55:15.498 [main] Payment - Pay with empty cart
+[DEBUG] 2024-02-28 20:55:17.127 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-02-28 20:55:17.142 [main] Payment - TEST SUCCEEDED - No 'Proceed to checkout' button
