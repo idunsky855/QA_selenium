@@ -112,3 +112,47 @@
 [DEBUG] 2024-02-28 21:51:08.910 [main] Pages - Opened chrome - got into website on store 2nd page
 [INFO ] 2024-02-28 21:51:09.143 [main] Pages - https://atid.store/store/
 [DEBUG] 2024-02-28 21:51:09.143 [main] Pages - TEST SUCCEEDED - we're on the 1st page
+[INFO ] 2024-03-03 15:53:35.199 [main] AddProductToCart - Add a product to Empty cart
+[DEBUG] 2024-03-03 15:53:36.181 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:53:38.982 [main] AddProductToCart - Clicked add to cart button
+[INFO ] 2024-03-03 15:53:39.009 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 1
+[INFO ] 2024-03-03 15:53:39.792 [main] AddProductToCart - Add a product that already exist in the cart
+[DEBUG] 2024-03-03 15:53:40.677 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:53:41.354 [main] AddProductToCart - Clicked add to cart button - first time
+[DEBUG] 2024-03-03 15:53:41.911 [main] AddProductToCart - Clicked Add the same item again
+[INFO ] 2024-03-03 15:53:41.954 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 2
+[INFO ] 2024-03-03 15:53:42.748 [main] AddProductToCart - Add a product to non empty cart
+[DEBUG] 2024-03-03 15:53:43.639 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:53:44.300 [main] AddProductToCart - Clicked add to cart button
+[DEBUG] 2024-03-03 15:53:45.265 [main] AddProductToCart - Clicked Add for 3 more items
+[INFO ] 2024-03-03 15:53:45.291 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 4
+[INFO ] 2024-03-03 15:53:56.003 [main] Pages - Go to previous page from 2nd page
+[DEBUG] 2024-03-03 15:53:57.593 [main] Pages - Opened chrome - got into website on store 2nd page
+[INFO ] 2024-03-03 15:53:58.163 [main] Pages - https://atid.store/store/
+[DEBUG] 2024-03-03 15:53:58.164 [main] Pages - TEST SUCCEEDED - we're on the 1st page
+[INFO ] 2024-03-03 15:53:58.897 [main] Pages - Go to next page from first page
+[DEBUG] 2024-03-03 15:53:59.689 [main] Pages - Opened chrome - got into website on store first page
+[INFO ] 2024-03-03 15:54:00.768 [main] Pages - https://atid.store/store/page/2/
+[DEBUG] 2024-03-03 15:54:00.769 [main] Pages - TEST SUCCEEDED - we're on the 2nd page
+[INFO ] 2024-03-03 15:54:01.515 [main] Payment - Pay with empty cart
+[DEBUG] 2024-03-03 15:54:02.877 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:54:04.641 [main] Payment - TEST SUCCEEDED - No 'Proceed to checkout' button
+[INFO ] 2024-03-03 15:54:05.412 [main] Pages - Remove existing product from cart
+[DEBUG] 2024-03-03 15:54:05.742 [main] Pages - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:54:06.979 [main] Pages - Clicked add to cart button
+[DEBUG] 2024-03-03 15:54:07.704 [main] Pages - Clicked remove item from cart
+[DEBUG] 2024-03-03 15:54:09.730 [main] Pages - TEST SUCCEEDED - No 'Proceed to checkout' button = the cart is empty
+[INFO ] 2024-03-03 15:54:10.498 [main] AddProductToCart - Add a product to Empty cart
+[DEBUG] 2024-03-03 15:54:13.402 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:54:14.064 [main] AddProductToCart - Clicked add to cart button
+[INFO ] 2024-03-03 15:54:14.093 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 1
+[INFO ] 2024-03-03 15:54:14.805 [main] AddProductToCart - Add a product that already exist in the cart
+[DEBUG] 2024-03-03 15:54:15.696 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:54:16.347 [main] AddProductToCart - Clicked add to cart button - first time
+[DEBUG] 2024-03-03 15:54:16.946 [main] AddProductToCart - Clicked Add the same item again
+[INFO ] 2024-03-03 15:54:16.968 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 2
+[INFO ] 2024-03-03 15:54:17.686 [main] AddProductToCart - Add a product to non empty cart
+[DEBUG] 2024-03-03 15:54:18.675 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-03 15:54:19.261 [main] AddProductToCart - Clicked add to cart button
+[DEBUG] 2024-03-03 15:54:20.247 [main] AddProductToCart - Clicked Add for 3 more items
+[INFO ] 2024-03-03 15:54:20.276 [main] AddProductToCart - Test Succeeded - cart items count icon changed to 4
