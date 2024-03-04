@@ -52,7 +52,7 @@ public class RemoveProductFromCart {
 
 	@Test
 	public void removeExistingProductFromCart() {
-		Logger logger = LogManager.getLogger(Pages.class);
+		Logger logger = LogManager.getLogger(RemoveProductFromCart.class);
 		logger.info("Remove existing product from cart");
 		// Test name: Remove existing product from cart
 		// Step # | name | target | value
@@ -86,7 +86,7 @@ public class RemoveProductFromCart {
 		JUnitCore junit = new JUnitCore();
 		junit.addListener(new TextListener(System.out));
 		
-		org.junit.runner.Result result = junit.run(Pages.class);
+		org.junit.runner.Result result = junit.run(RemoveProductFromCart.class);
 		
 		if (result.getFailureCount() > 0) {
 			System.out.println("Test failed.");

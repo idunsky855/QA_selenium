@@ -45,18 +45,18 @@ public class AddProductToCart {
 		logger.debug("Clicked add to cart button");
 		// 3 | spanText | span in cart icon | getText
 		String spanText = driver.findElement(By.xpath("//*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span")).getText();
-		
+
 		String res;
-		if(spanText.equals("1")){
+		if (spanText.equals("1")) {
 			res = "Test Succeeded - cart items count icon changed to 1";
-		}else{
+		} else {
 			res = "Test FAILED! - cart items count icon DID NOT change to 1";
 		}
 		logger.info(res);
 	}
 
 	@Test
-	public void addMoreProducts(){
+	public void addMoreProducts() {
 		Logger logger = LogManager.getLogger(AddProductToCart.class);
 		logger.info("Add a product to non empty cart");
 		// Test name: add products to non empty cart
@@ -67,7 +67,7 @@ public class AddProductToCart {
 		// 2 | type | name=add-to-cart | click on it
 		driver.findElement(By.name("add-to-cart")).click();
 		logger.debug("Clicked add to cart button");
-		
+
 		driver.get("https://atid.store/product/atid-black-shoes/");
 		WebElement quantity = driver.findElement(By.name("quantity"));
 		quantity.clear();
@@ -79,17 +79,17 @@ public class AddProductToCart {
 		String spanText = driver.findElement(By.xpath("//*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span")).getText();
 
 		String res;
-		if(spanText.equals("4")){
+		if (spanText.equals("4")) {
 			res = "Test Succeeded - cart items count icon changed to 4";
-		}else{
+		} else {
 			res = "Test FAILED! - cart items count icon DID NOT change to 4";
 		}
-		logger.info(res);	
-		
+		logger.info(res);
+
 	}
 
 	@Test
-	public void addTheSameProduct(){
+	public void addTheSameProduct() {
 		Logger logger = LogManager.getLogger(AddProductToCart.class);
 		logger.info("Add a product that already exist in the cart");
 		// Test name: add a product that already exist in the cart
@@ -109,9 +109,9 @@ public class AddProductToCart {
 		String spanText = driver.findElement(By.xpath("//*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span")).getText();
 
 		String res;
-		if(spanText.equals("2")){
+		if (spanText.equals("2")) {
 			res = "Test Succeeded - cart items count icon changed to 2";
-		}else{
+		} else {
 			res = "Test FAILED! - cart items count icon DID NOT change to 2";
 		}
 		logger.info(res);
@@ -120,9 +120,9 @@ public class AddProductToCart {
 	public static void main(String args[]) {
 		JUnitCore junit = new JUnitCore();
 		junit.addListener(new TextListener(System.out));
-		
+
 		org.junit.runner.Result result = junit.run(AddProductToCart.class);
-		
+
 		if (result.getFailureCount() > 0) {
 			System.out.println("Test failed.");
 			System.exit(1);

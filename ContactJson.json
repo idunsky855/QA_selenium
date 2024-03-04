@@ -1,0 +1,44 @@
+[
+    {
+        "name": "yarden",
+        "email": "alex123@gmail.com",
+        "subject": "returning a product",
+        "message": "returning a product returning a product returning a product returning a product returning a product",
+        "expectedResult": "//*[@id=\"wpforms-confirmation-15\"]/p"
+    },
+    {
+        "name": "yarden",
+        "email": "alex123@gmail.com",
+        "subject": "",
+        "message": "fdsgsdlfkgjsdfgsdf",
+        "expectedResult": "//*[@id=\"wpforms-15-field_0\"]"
+    },
+    {
+        "name": "",
+        "email": "alex123@gmail.com",
+        "subject": "",
+        "message": "ldsgjdfgdfgdfgdflgkjl",
+        "expectedResult": "//*[@id=\"wpforms-15-field_0\"]"
+    },
+    {
+        "name": "",
+        "email": "alex123@gmail.com",
+        "subject": "",
+        "message": "",
+        "expectedResult": "//*[@id=\"wpforms-15-field_0\"]"
+    },
+    {
+        "name": "",
+        "email": "",
+        "subject": "",
+        "message": "",
+        "expectedResult": "//*[@id=\"wpforms-15-field_0\"]"
+    },
+    {
+        "name": "yarden",
+        "email": "alex123",
+        "subject": "123456789",
+        "message": "hfgdhdgfhererhehthtrtttyrgf",
+        "expectedResult": "//*[@id=\"wpforms-15-field_0\"]"
+    }
+]
