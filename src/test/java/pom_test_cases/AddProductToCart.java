@@ -45,9 +45,9 @@ public class AddProductToCart {
 
 		String res;
 		if (spanText.equals("1")) {
-			res = "Test Succeeded - cart items count icon changed to 1";
+			res = "'TEST SUCCEEDED!' - cart items count icon changed to 1";
 		} else {
-			res = "Test FAILED! - cart items count icon DID NOT change to 1";
+			res = "TEST FAILED! - cart items count icon DID NOT change to 1";
 		}
 		logger.info(res);
 	}
@@ -77,7 +77,7 @@ public class AddProductToCart {
 
 		String res;
 		if (spanText.equals("4")) {
-			res = "Test Succeeded - cart items count icon changed to 4";
+			res = "'TEST SUCCEEDED!' - cart items count icon changed to 4";
 		} else {
 			res = "Test FAILED! - cart items count icon DID NOT change to 4";
 		}
@@ -107,9 +107,9 @@ public class AddProductToCart {
 
 		String res;
 		if (spanText.equals("2")) {
-			res = "Test Succeeded - cart items count icon changed to 2";
+			res = "'TEST SUCCEEDED!' - cart items count icon changed to 2";
 		} else {
-			res = "Test FAILED! - cart items count icon DID NOT change to 2";
+			res = "TEST FAILED! - cart items count icon DID NOT change to 2";
 		}
 		logger.info(res);
 	}

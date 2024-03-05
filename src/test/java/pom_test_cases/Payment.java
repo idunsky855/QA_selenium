@@ -43,7 +43,7 @@ public class Payment {
 					.click();
 			logger.debug("TEST FAILED - Clicked 'Proceed to checkout' button");
 		} catch (Exception e) {
-			logger.debug("TEST SUCCEEDED - No 'Proceed to checkout' button");
+			logger.debug("'TEST SUCCEEDED!' - No 'Proceed to checkout' button");
 		}
 	}
 

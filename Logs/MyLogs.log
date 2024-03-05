@@ -1,0 +1,46 @@
+[INFO ] 2024-03-05 13:05:06.851 [main] Accessibility - Accessibility Test
+[DEBUG] 2024-03-05 13:05:08.110 [main] Accessibility - Opened chrome - got onto the website
+[INFO ] 2024-03-05 13:05:08.114 [main] Accessibility - Generated Accessibility test files!! - under /target/java-a11y/htmlcs/ directory
+[INFO ] 2024-03-05 13:05:09.585 [main] AddProductToCart - Add a product to Empty cart
+[DEBUG] 2024-03-05 13:05:10.466 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-05 13:05:11.124 [main] AddProductToCart - Clicked add to cart button
+[INFO ] 2024-03-05 13:05:11.148 [main] AddProductToCart - 'TEST SUCCEEDED!' - cart items count icon changed to 1
+[INFO ] 2024-03-05 13:05:11.846 [main] AddProductToCart - Add a product that already exist in the cart
+[DEBUG] 2024-03-05 13:05:12.717 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-05 13:05:13.406 [main] AddProductToCart - Clicked add to cart button - first time
+[DEBUG] 2024-03-05 13:05:14.019 [main] AddProductToCart - Clicked Add the same item again
+[INFO ] 2024-03-05 13:05:14.047 [main] AddProductToCart - 'TEST SUCCEEDED!' - cart items count icon changed to 2
+[INFO ] 2024-03-05 13:05:14.741 [main] AddProductToCart - Add a product to non empty cart
+[DEBUG] 2024-03-05 13:05:15.606 [main] AddProductToCart - Opened chrome - got into website
+[DEBUG] 2024-03-05 13:05:16.318 [main] AddProductToCart - Clicked add to cart button
+[DEBUG] 2024-03-05 13:05:17.365 [main] AddProductToCart - Clicked Add for 3 more items
+[INFO ] 2024-03-05 13:05:17.390 [main] AddProductToCart - 'TEST SUCCEEDED!' - cart items count icon changed to 4
+[INFO ] 2024-03-05 13:05:18.084 [main] Payment - Pay with empty cart
+[DEBUG] 2024-03-05 13:05:18.988 [main] Payment - Opened chrome - got into website
+[DEBUG] 2024-03-05 13:05:19.541 [main] Payment - 'TEST SUCCEEDED!' - No 'Proceed to checkout' button
+[INFO ] 2024-03-05 13:05:20.227 [main] RemoveProductFromCart - Remove existing product from cart
+[DEBUG] 2024-03-05 13:05:21.031 [main] RemoveProductFromCart - Opened chrome - got into website
+[DEBUG] 2024-03-05 13:05:21.683 [main] RemoveProductFromCart - Clicked add to cart button
+[DEBUG] 2024-03-05 13:05:22.383 [main] RemoveProductFromCart - Clicked remove item from cart
+[DEBUG] 2024-03-05 13:05:24.409 [main] RemoveProductFromCart - 'TEST SUCCEEDED!' - No 'Proceed to checkout' button = the cart is empty
+[INFO ] 2024-03-05 13:05:25.114 [main] Contact - Contact us test
+[INFO ] 2024-03-05 13:05:26.013 [main] Contact - On Contact us page - Test case 1
+[INFO ] 2024-03-05 13:05:27.112 [main] Contact - 'TEST SUCCEEDED!' - test case 1
+[INFO ] 2024-03-05 13:05:27.227 [main] Contact - On Contact us page - Test case 2
+[INFO ] 2024-03-05 13:05:28.193 [main] Contact - TEST FAILED! - test case 2
+[INFO ] 2024-03-05 13:05:28.309 [main] Contact - On Contact us page - Test case 3
+[INFO ] 2024-03-05 13:05:28.442 [main] Contact - 'TEST SUCCEEDED!' - test case 3
+[INFO ] 2024-03-05 13:05:28.575 [main] Contact - On Contact us page - Test case 4
+[INFO ] 2024-03-05 13:05:28.695 [main] Contact - 'TEST SUCCEEDED!' - test case 4
+[INFO ] 2024-03-05 13:05:28.810 [main] Contact - On Contact us page - Test case 5
+[INFO ] 2024-03-05 13:05:28.919 [main] Contact - 'TEST SUCCEEDED!' - test case 5
+[INFO ] 2024-03-05 13:05:29.035 [main] Contact - On Contact us page - Test case 6
+[INFO ] 2024-03-05 13:05:29.184 [main] Contact - 'TEST SUCCEEDED!' - test case 6
+[INFO ] 2024-03-05 13:05:29.895 [main] Pages - Go to previous page from 2nd page
+[DEBUG] 2024-03-05 13:05:30.640 [main] Pages - Opened chrome - got into website on store 2nd page
+[INFO ] 2024-03-05 13:05:30.889 [main] Pages - https://atid.store/store/
+[DEBUG] 2024-03-05 13:05:30.889 [main] Pages - 'TEST SUCCEEDED!' - we're on the 1st page
+[INFO ] 2024-03-05 13:05:31.615 [main] Pages - Go to next page from first page
+[DEBUG] 2024-03-05 13:05:32.542 [main] Pages - Opened chrome - got into website on store first page
+[INFO ] 2024-03-05 13:05:32.719 [main] Pages - https://atid.store/store/page/2/
+[DEBUG] 2024-03-05 13:05:32.719 [main] Pages - 'TEST SUCCEEDED!' - we're on the 2nd page

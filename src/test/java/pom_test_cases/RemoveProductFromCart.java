@@ -54,7 +54,7 @@ public class RemoveProductFromCart {
 
         Thread.sleep(2000);
         }catch(Exception e){
-            logger.debug("TEST SUCCEEDED - No 'Proceed to checkout' button = the cart is empty");
+            logger.debug("'TEST SUCCEEDED!' - No 'Proceed to checkout' button = the cart is empty");
         }
 	}
 

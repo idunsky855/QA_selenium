@@ -43,7 +43,7 @@ public class Pages {
 
 		logger.info(currentURL);
 		if (currentURL.equals("https://atid.store/store/page/2/")) {
-			logger.debug("TEST SUCCEEDED - we're on the 2nd page");
+			logger.debug("'TEST SUCCEEDED!' - we're on the 2nd page");
 		} else {
 			logger.debug("TEST FAILED - Current URL does not match 2nd page");
 		}
@@ -65,7 +65,7 @@ public class Pages {
 
 		logger.info(currentURL);
 		if (currentURL.equals("https://atid.store/store/")) {
-			logger.debug("TEST SUCCEEDED - we're on the 1st page");
+			logger.debug("'TEST SUCCEEDED!' - we're on the 1st page");
 		} else {
 			logger.debug("TEST FAILED - Current URL does not match 1st page");
 		}

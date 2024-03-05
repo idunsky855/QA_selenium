@@ -71,9 +71,9 @@ public class Contact {
 
             try {
                 driver.findElement(By.xpath((String) obj.get("expectedResult")));
-                logger.info("Test Succeeded");
+                logger.info(String.format("'TEST SUCCEEDED!' - test case %d",i+1));
             } catch (Exception e) {
-                logger.info("Test Failed");
+                logger.info(String.format("TEST FAILED! - test case %d",i+1));
             }
 
         }
