@@ -11,19 +11,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.JavascriptExecutor;
-import java.util.*;
 import org.apache.logging.log4j.*;
 
 public class AddProductToCart {
 	private WebDriver driver;
-	private Map<String, Object> vars;
 	JavascriptExecutor js;
 
 	@Before
 	public void setUp() {
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
-		vars = new HashMap<String, Object>();
 	}
 
 	@After

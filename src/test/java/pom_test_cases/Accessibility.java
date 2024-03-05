@@ -6,7 +6,6 @@ import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
 import org.junit.Before;
 import org.junit.After;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -15,12 +14,10 @@ import io.github.sridharbandi.HtmlCsRunner;
 import org.openqa.selenium.JavascriptExecutor;
 
 import java.io.IOException;
-import java.util.*;
 import org.apache.logging.log4j.*;
 
 public class Accessibility {
 	private WebDriver driver;
-	private Map<String, Object> vars;
 	JavascriptExecutor js;
 	private HtmlCsRunner htmlCsRunner;
 
@@ -28,7 +25,6 @@ public class Accessibility {
 	public void setUp() {
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
-		vars = new HashMap<String, Object>();
 		htmlCsRunner = new HtmlCsRunner(driver);
 	}
 

@@ -18,20 +18,17 @@ import org.json.simple.parser.ParseException;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
 import org.apache.logging.log4j.*;
 
 public class Contact {
     private WebDriver driver;
-    private Map<String, Object> vars;
     JavascriptExecutor js;
     private JSONArray cases;
-
+    
     @Before
     public void setUp() throws IOException, ParseException {
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
-        vars = new HashMap<String, Object>();
 
         try {
             JSONParser jsonParser = new JSONParser();
