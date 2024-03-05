@@ -36,23 +36,23 @@ public class Payment {
 		// 1 | open | / |
 		driver.get("https://atid.store/cart-2");
 		logger.debug("Opened chrome - got into website");
-        try{
-		// 2 | click |  by xpath | click on it
-		driver.findElement(By.xpath("//*[@id=\"post-39\"]/div/div/section[2]/div/div/div/div/div/div/div/div[2]/div/div/a")).click();
-		logger.debug("TEST FAILED - Clicked 'Proceed to checkout' button");
-        }catch(Exception e)
-        {
-            logger.debug("TEST SUCCEEDED - No 'Proceed to checkout' button");
-        }
+		try {
+			// 2 | click | by xpath | click on it
+			driver.findElement(
+					By.xpath("//*[@id=\"post-39\"]/div/div/section[2]/div/div/div/div/div/div/div/div[2]/div/div/a"))
+					.click();
+			logger.debug("TEST FAILED - Clicked 'Proceed to checkout' button");
+		} catch (Exception e) {
+			logger.debug("TEST SUCCEEDED - No 'Proceed to checkout' button");
+		}
 	}
-
 
 	public static void main(String args[]) {
 		JUnitCore junit = new JUnitCore();
 		junit.addListener(new TextListener(System.out));
-		
+
 		org.junit.runner.Result result = junit.run(Payment.class);
-		
+
 		if (result.getFailureCount() > 0) {
 			System.out.println("Test failed.");
 			System.exit(1);

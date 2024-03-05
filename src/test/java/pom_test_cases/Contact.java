@@ -24,7 +24,7 @@ public class Contact {
     private WebDriver driver;
     JavascriptExecutor js;
     private JSONArray cases;
-    
+
     @Before
     public void setUp() throws IOException, ParseException {
         driver = new ChromeDriver();
