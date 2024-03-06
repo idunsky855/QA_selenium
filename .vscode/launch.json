@@ -1,0 +1,55 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Pages",
+      "request": "launch",
+      "mainClass": "pom_test_cases.Pages",
+      "projectName": "selenium"
+    },
+    {
+      "type": "java",
+      "name": "AddProductToCart",
+      "request": "launch",
+      "mainClass": "pom_test_cases.AddProductToCart",
+      "projectName": "selenium"
+    },
+    {
+      "type": "java",
+      "name": "Payment",
+      "request": "launch",
+      "mainClass": "pom_test_cases.Payment",
+      "projectName": "selenium"
+    },
+    {
+      "type": "java",
+      "name": "Accessibility",
+      "request": "launch",
+      "mainClass": "pom_test_cases.Accessibility",
+      "projectName": "selenium"
+    },
+    {
+      "type": "java",
+      "name": "Contact",
+      "request": "launch",
+      "mainClass": "pom_test_cases.Contact",
+      "projectName": "selenium"
+    },
+    {
+      "type": "java",
+      "name": "UpdateCartQuantity",
+      "request": "launch",
+      "mainClass": "pom_test_cases.UpdateCartQuantity",
+      "projectName": "selenium"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/idandunsky/Downloads",
+      "program": "/Users/idandunsky/Downloads/build/Debug/outDebug"
+    }
+  ]
+}

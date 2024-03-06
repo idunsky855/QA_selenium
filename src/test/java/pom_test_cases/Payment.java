@@ -8,7 +8,6 @@ import org.junit.Before;
 import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.apache.logging.log4j.*;
 
@@ -18,7 +17,7 @@ public class Payment {
 
 	@Before
 	public void setUp() {
-		driver = new ChromeDriver();
+		driver = TestBase.initializeDriver();
 		js = (JavascriptExecutor) driver;
 	}
 

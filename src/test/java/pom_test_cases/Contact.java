@@ -6,9 +6,10 @@ import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
 import org.junit.Before;
 import org.junit.After;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
+import pages.ContactUsPage;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -27,7 +28,7 @@ public class Contact {
 
     @Before
     public void setUp() throws IOException, ParseException {
-        driver = new ChromeDriver();
+        driver = TestBase.initializeDriver();
         js = (JavascriptExecutor) driver;
 
         try {
@@ -53,24 +54,22 @@ public class Contact {
 
         Logger logger = LogManager.getLogger(Contact.class);
         logger.info("Contact us test");
-
+        
+        
         for (int i = 0; i < cases.size(); i++) {
             JSONObject obj = (JSONObject) cases.get(i);
             driver.get("https://atid.store/contact-us/");
             logger.info(String.format("On Contact us page - Test case %d", i + 1));
+            ContactUsPage page = new ContactUsPage(driver);
 
-            driver.findElement(By.xpath("//*[@id=\"wpforms-15-field_0\"]")).sendKeys((String) obj.get("name")); // name
-                                                                                                                // input
-            driver.findElement(By.xpath("//*[@id=\"wpforms-15-field_5\"]")).sendKeys((String) obj.get("subject")); // subject
-                                                                                                                   // input
-            driver.findElement(By.xpath("//*[@id=\"wpforms-15-field_4\"]")).sendKeys((String) obj.get("email")); // email
-                                                                                                                 // input
-            driver.findElement(By.xpath("//*[@id=\"wpforms-15-field_2\"]"))
-                    .sendKeys((String) obj.get("message")); // message input
-            driver.findElement(By.xpath("//*[@id=\"wpforms-submit-15\"]")).click(); // Send message click button
+            page.enterName((String) obj.get("name")); // name input
+            page.enterSubject((String) obj.get("subject")); // subject input
+            page.enterEmail((String) obj.get("email")); // email input
+            page.enterMessage((String) obj.get("message")); // message input
+            page.clickButton(); // Send message click button
 
             try {
-                driver.findElement(By.xpath((String) obj.get("expectedResult")));
+                page.getElement((String) obj.get("expectedResult"));
                 logger.info(String.format("'TEST SUCCEEDED!' - test case %d",i+1));
             } catch (Exception e) {
                 logger.info(String.format("TEST FAILED! - test case %d",i+1));
