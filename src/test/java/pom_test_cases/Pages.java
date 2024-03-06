@@ -5,8 +5,10 @@ import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
 import org.junit.Before;
 import org.junit.After;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import pages.CatalogPage;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.apache.logging.log4j.*;
 
@@ -27,19 +29,16 @@ public class Pages {
 
 	@Test
 	public void GoToNextPage() {
+		// Test name: Go to next page from first page
 		Logger logger = LogManager.getLogger(Pages.class);
 		logger.info("Go to next page from first page");
-		// Test name: Go to next page from first page
-		// Step # | name | target | value
-		// 1 | open | / |
 		driver.get("https://atid.store/store");
 		logger.debug("Opened chrome - got into website on store first page");
+		CatalogPage page = new CatalogPage(driver);
 
-		// 2 | click | by xpath | click on it
-		driver.findElement(By.xpath("//*[@id=\"main\"]/div/nav[2]/ul/li[2]/a")).click();
-		String currentURL = driver.getCurrentUrl();
+		String currentURL = page.goToNextPage();
 
-		logger.info(currentURL);
+		logger.info("current URL: " + currentURL);
 		if (currentURL.equals("https://atid.store/store/page/2/")) {
 			logger.debug("'TEST SUCCEEDED!' - we're on the 2nd page");
 		} else {
@@ -49,19 +48,17 @@ public class Pages {
 
 	@Test
 	public void GoToPreviousPage() {
+		// Test name: Go to previous page from 2nd page
 		Logger logger = LogManager.getLogger(Pages.class);
 		logger.info("Go to previous page from 2nd page");
-		// Test name: Go to next page from first page
-		// Step # | name | target | value
-		// 1 | open | / |
 		driver.get("https://atid.store/store/page/2/");
 		logger.debug("Opened chrome - got into website on store 2nd page");
+		CatalogPage page = new CatalogPage(driver);
 
-		// 2 | click | by xpath | click on it
-		driver.findElement(By.xpath("//*[@id=\"main\"]/div/nav[2]/ul/li[1]/a")).click();
-		String currentURL = driver.getCurrentUrl();
+		String currentURL = page.goToPreviousPage();
 
 		logger.info(currentURL);
+		logger.info("current URL: " + currentURL);
 		if (currentURL.equals("https://atid.store/store/")) {
 			logger.debug("'TEST SUCCEEDED!' - we're on the 1st page");
 		} else {

@@ -32,9 +32,9 @@ public class Accessibility {
 
 	@Test
 	public void AccessibilityTest() {
+		// Test name: Accessibility Test
 		Logger logger = LogManager.getLogger(Accessibility.class);
 		logger.info("Accessibility Test");
-		// Test name: Accessibility Test
 
 		driver.get("https://atid.store/");
 		logger.debug("Opened chrome - got onto the website");
