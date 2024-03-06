@@ -6,9 +6,9 @@ import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
 import org.junit.Before;
 import org.junit.After;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import pages.ProductPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.apache.logging.log4j.*;
 
@@ -29,18 +29,18 @@ public class AddProductToCart {
 
 	@Test
 	public void addProductTest() {
+		// Test name: add product to empty cart
 		Logger logger = LogManager.getLogger(AddProductToCart.class);
 		logger.info("Add a product to Empty cart");
-		// Test name: add product to empty cart
-		// Step # | name | target | value
-		// 1 | open | / |
 		driver.get("https://atid.store/product/anchor-bracelet/");
+		ProductPage page = new ProductPage(driver);
+		
 		logger.debug("Opened chrome - got into website");
-		// 2 | type | name=add-to-cart | click on it
-		driver.findElement(By.name("add-to-cart")).click();
+		
+		page.clickAddToCart();
 		logger.debug("Clicked add to cart button");
-		// 3 | spanText | span in cart icon | getText
-		String spanText = driver.findElement(By.xpath("//*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span")).getText();
+
+		String spanText = page.getCartIconText();
 
 		String res;
 		if (spanText.equals("1")) {
@@ -53,27 +53,26 @@ public class AddProductToCart {
 
 	@Test
 	public void addMoreProducts() {
+		// Test name: add products to non empty cart
 		Logger logger = LogManager.getLogger(AddProductToCart.class);
 		logger.info("Add a product to non empty cart");
-		// Test name: add products to non empty cart
-		// Step # | name | target | value
-		// 1 | open | / |
 		driver.get("https://atid.store/product/anchor-bracelet/");
+		ProductPage page = new ProductPage(driver);
+
 		logger.debug("Opened chrome - got into website");
-		// 2 | type | name=add-to-cart | click on it
-		driver.findElement(By.name("add-to-cart")).click();
+		page.clickAddToCart();
 		logger.debug("Clicked add to cart button");
 
 		driver.get("https://atid.store/product/atid-black-shoes/");
-		WebElement quantity = driver.findElement(By.name("quantity"));
+		page = new ProductPage(driver);
+
+		WebElement quantity = page.getQuantityElement();
 		quantity.clear();
 		quantity.sendKeys("3");
-		driver.findElement(By.name("add-to-cart")).click();
+		page.clickAddToCart();
 		logger.debug("Clicked Add for 3 more items");
-
-		// 3 | spanText | span in cart icon | getText
-		String spanText = driver.findElement(By.xpath("//*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span")).getText();
-
+		
+		String spanText = page.getSpanText();
 		String res;
 		if (spanText.equals("4")) {
 			res = "'TEST SUCCEEDED!' - cart items count icon changed to 4";
@@ -86,23 +85,21 @@ public class AddProductToCart {
 
 	@Test
 	public void addTheSameProduct() {
+		// Test name: add a product that already exist in the cart
 		Logger logger = LogManager.getLogger(AddProductToCart.class);
 		logger.info("Add a product that already exist in the cart");
-		// Test name: add a product that already exist in the cart
-		// Step # | name | target | value
-		// 1 | open | / |
 		driver.get("https://atid.store/product/anchor-bracelet/");
+		ProductPage page = new ProductPage(driver);
+
 		logger.debug("Opened chrome - got into website");
-		// 2.1 | type | name=add-to-cart | click on it
-		driver.findElement(By.name("add-to-cart")).click();
+		
+		page.clickAddToCart();;
 		logger.debug("Clicked add to cart button - first time");
 
-		// 2.2 | type | name=add-to-cart | click on it
-		driver.findElement(By.name("add-to-cart")).click();
+		page.clickAddToCart();
 		logger.debug("Clicked Add the same item again");
 
-		// 3 | spanText | span in cart icon | getText
-		String spanText = driver.findElement(By.xpath("//*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span")).getText();
+		String spanText = page.getSpanText();
 
 		String res;
 		if (spanText.equals("2")) {
