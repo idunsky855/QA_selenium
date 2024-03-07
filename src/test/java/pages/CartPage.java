@@ -7,8 +7,8 @@ import org.openqa.selenium.WebDriver;
 
 public class CartPage {
     WebDriver driver;
-    By removeBtn = By.xpath("//*[@id=\"post-39\"]/div/div/section[2]/div/div/div/div/div/div/div/form/table/tbody/tr[1]/td[1]/a");
-    By proceedToCheckout = By.xpath("//*[@id=\"post-39\"]/div/div/section[2]/div/div/div/div/div/div/div/div[2]/div/div/a");
+    By removeBtn = By.xpath("//*[@id=\"post-39\"]/div/div/section[2]/div/div/div/div/div/div/div/form/table/tbody/tr[1]/td[1]/a"); //remove button
+    By proceedToCheckout = By.xpath("//*[@id=\"post-39\"]/div/div/section[2]/div/div/div/div/div/div/div/div[2]/div/div/a"); //proceed to checkout
 
     public CartPage(WebDriver driver){
         this.driver = driver;
