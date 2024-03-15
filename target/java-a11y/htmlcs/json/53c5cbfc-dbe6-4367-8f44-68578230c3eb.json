@@ -1,0 +1,1603 @@
+{
+  "browser" : "Chrome 122.0.0.0",
+  "date" : "6/3/2024 20:4:29",
+  "device" : "Laptop/Desktop",
+  "dimension" : "1200 X 852",
+  "errors" : 17,
+  "id" : "id_ltg3z3swk93go",
+  "notices" : 149,
+  "results" : [ {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_2.H25.2",
+    "element" : "<title>...</title>",
+    "msg" : "Check that the title element describes the document.",
+    "tag" : "title",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H25" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a id=\"pojo-a11y-skip-content\" class=\"pojo-skip-link pojo-skip-content\" tabindex=\"1\" accesskey=\"s\" href=\"#content\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+    "element" : "<nav id=\"pojo-a11y-toolbar\" class=\"pojo-a11y-toolbar-left pojo-a11y-\" role=\"navigation\">...</nav>",
+    "msg" : "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+    "tag" : "nav",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/css/C32", "https://www.w3.org/WAI/WCAG21/Techniques/css/C31", "https://www.w3.org/WAI/WCAG21/Techniques/css/C33", "https://www.w3.org/WAI/WCAG21/Techniques/css/C38", "https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34", "https://www.w3.org/WAI/WCAG21/Techniques/general/G206" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81,H33",
+    "element" : "<a class=\"pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link\" href=\"javascript:void(0);\" title=\"Accessibility Tools\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context, or its title attribute, identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81", "https://www.w3.org/WAI/WCAG21/Techniques/html/H33" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+    "element" : "<span class=\"pojo-sr-only sr-only\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus\" data-action=\"resize-plus\" data-action-group=\"resize\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus\" data-action=\"resize-minus\" data-action-group=\"resize\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-grayscale\" data-action=\"grayscale\" data-action-group=\"schema\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-high-contrast\" data-action=\"high-contrast\" data-action-group=\"schema\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-negative-contrast\" data-action=\"negative-contrast\" data-action-group=\"schema\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-light-background\" data-action=\"light-background\" data-action-group=\"schema\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-links-underline\" data-action=\"links-underline\" data-action-group=\"toggle\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-readable-font\" data-action=\"readable-font\" data-action-group=\"toggle\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"pojo-a11y-toolbar-link pojo-a11y-btn-reset\" data-action=\"reset\" tabindex=\"-1\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81,H33",
+    "element" : "<a class=\"skip-link screen-reader-text\" href=\"#content\" role=\"link\" title=\"Skip to content\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context, or its title attribute, identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81", "https://www.w3.org/WAI/WCAG21/Techniques/html/H33" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/\" class=\"custom-logo-link transparent-custom-logo\" rel=\"home\" itemprop=\"url\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/\" class=\"custom-logo-link transparent-custom-logo\" rel=\"home\" itemprop=\"url\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img width=\"160\" height=\"63\" src=\"https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png\" class=\"custom-logo\" alt=\"\" decoding=\"async\" srcset=\"https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png 160w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright-300x118.png 300w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright.png 571w\" sizes=\"(max-width: 160px) 100vw, 160px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<a href=\"https://atid.store/\" aria-current=\"page\" class=\"menu-link\">...</a>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/\" aria-current=\"page\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<a href=\"https://atid.store/store/\" class=\"menu-link\">...</a>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/store/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<a href=\"https://atid.store/product-category/men/\" class=\"menu-link\">...</a>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/men/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<a href=\"https://atid.store/product-category/women/\" class=\"menu-link\">...</a>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/women/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<a href=\"https://atid.store/product-category/accessories/\" class=\"menu-link\">...</a>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/accessories/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<a href=\"https://atid.store/about/\" class=\"menu-link\">...</a>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/about/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<a href=\"https://atid.store/contact-us/\" class=\"menu-link\">...</a>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/contact-us/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a class=\"slide-search astra-search-icon\" aria-label=\"Search icon link\" href=\"#\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+    "element" : "<form role=\"search\" method=\"get\" class=\"search-form\" action=\"https://atid.store/\">...</form>",
+    "msg" : "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+    "tag" : "form",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H32" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_3.3_3_1.G83,G84,G85",
+    "element" : "<form role=\"search\" method=\"get\" class=\"search-form\" action=\"https://atid.store/\">...</form>",
+    "msg" : "If an input error is automatically detected in this form, check that the item(s) in error are identified and the error(s) are described to the user in text.",
+    "tag" : "form",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G83", "https://www.w3.org/WAI/WCAG21/Techniques/general/G84", "https://www.w3.org/WAI/WCAG21/Techniques/general/G85" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_3.3_3_2.G131,G89,G184,H90",
+    "element" : "<form role=\"search\" method=\"get\" class=\"search-form\" action=\"https://atid.store/\">...</form>",
+    "msg" : "Check that descriptive labels or instructions (including for required fields) are provided for user input in this form.",
+    "tag" : "form",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G131", "https://www.w3.org/WAI/WCAG21/Techniques/general/G89", "https://www.w3.org/WAI/WCAG21/Techniques/general/G184", "https://www.w3.org/WAI/WCAG21/Techniques/html/H90" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_3.3_3_3.G177",
+    "element" : "<form role=\"search\" method=\"get\" class=\"search-form\" action=\"https://atid.store/\">...</form>",
+    "msg" : "Check that this form provides suggested corrections to errors in user input, unless it would jeopardize the security or purpose of the content.",
+    "tag" : "form",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G177" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_3.3_3_4.G98,G99,G155,G164,G168.LegalForms",
+    "element" : "<form role=\"search\" method=\"get\" class=\"search-form\" action=\"https://atid.store/\">...</form>",
+    "msg" : "If this form would bind a user to a financial or legal commitment, modify/delete user-controllable data, or submit test responses, ensure that submissions are either reversible, checked for input errors, and/or confirmed by the user.",
+    "tag" : "form",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G98", "https://www.w3.org/WAI/WCAG21/Techniques/general/G99", "https://www.w3.org/WAI/WCAG21/Techniques/general/G155", "https://www.w3.org/WAI/WCAG21/Techniques/general/G164", "https://www.w3.org/WAI/WCAG21/Techniques/general/G168" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+    "element" : "<input type=\"search\" class=\"search-field\" placeholder=\"Search …\" value=\"\" name=\"s\" tabindex=\"-1\">",
+    "msg" : "Check that the input field serves a purpose identified in the Input Purposes for User Interface Components section; and that the content is implemented using technologies with support for identifying the expected meaning for form input data.",
+    "tag" : "input",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H98" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_5.H98",
+    "element" : "<input type=\"search\" class=\"search-field\" placeholder=\"Search …\" value=\"\" name=\"s\" tabindex=\"-1\">",
+    "msg" : "This element does not have an autocomplete attribute. If this field collects information about the user, consider adding one to comply with this Success Criterion.",
+    "tag" : "input",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H98" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+    "element" : "<input type=\"search\" class=\"search-field\" placeholder=\"Search …\" value=\"\" name=\"s\" tabindex=\"-1\">",
+    "msg" : "Check that a change of context does not occur when this input field receives focus.",
+    "tag" : "input",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G107" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81,H33",
+    "element" : "<a class=\"cart-container\" href=\"https://atid.store/cart-2/\" title=\"View your shopping cart\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context, or its title attribute, identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81", "https://www.w3.org/WAI/WCAG21/Techniques/html/H33" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<bdi>...</bdi>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "bdi",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<span class=\"woocommerce-Price-currencySymbol\">...</span>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+    "element" : "<span class=\"count\">...</span>",
+    "msg" : "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/\" class=\"custom-logo-link transparent-custom-logo\" rel=\"home\" itemprop=\"url\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/\" class=\"custom-logo-link transparent-custom-logo\" rel=\"home\" itemprop=\"url\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img width=\"160\" height=\"63\" src=\"https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png\" class=\"custom-logo\" alt=\"\" decoding=\"async\" srcset=\"https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png 160w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright-300x118.png 300w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright.png 571w\" sizes=\"(max-width: 160px) 100vw, 160px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+    "element" : "<button type=\"button\" class=\"menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-outline\" aria-expanded=\"false\" data-index=\"0\">...</button>",
+    "msg" : "Check that a change of context does not occur when this input field receives focus.",
+    "tag" : "button",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G107" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+    "element" : "<nav class=\"site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item\" id=\"primary-site-navigation\" aria-label=\"Site Navigation\" itemtype=\"https://schema.org/SiteNavigationElement\" itemscope=\"itemscope\">...</nav>",
+    "msg" : "Duplicate id attribute value \"primary-site-navigation\" found on the web page.",
+    "tag" : "nav",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/failures/F77" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+    "element" : "<ul id=\"ast-hf-menu-1\" class=\"main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-slide-up  ast-menu-hover-style-zoom  stack-on-mobile\">...</ul>",
+    "msg" : "Duplicate id attribute value \"ast-hf-menu-1\" found on the web page.",
+    "tag" : "ul",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/failures/F77" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/\" aria-current=\"page\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/store/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/men/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/women/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/accessories/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/about/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/contact-us/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h1 class=\"elementor-heading-title elementor-size-default\">...</h1>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h1",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141",
+    "element" : "<h3 class=\"elementor-heading-title elementor-size-default\">...</h3>",
+    "msg" : "The heading structure is not logically nested. This h3 element should be an h2 to be properly nested.",
+    "tag" : "h3",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G141" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h3 class=\"elementor-heading-title elementor-size-default\">...</h3>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h3",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141",
+    "element" : "<h5 class=\"elementor-heading-title elementor-size-default\">...</h5>",
+    "msg" : "The heading structure is not logically nested. This h5 element should be an h4 to be properly nested.",
+    "tag" : "h5",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G141" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+    "element" : "<a href=\"https://atidcollege.co.il/\">...</a>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atidcollege.co.il/\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/store/\" class=\"elementor-button-link elementor-button elementor-size-sm\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/contact-us/\" class=\"elementor-button-link elementor-button elementor-size-sm\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+    "element" : "<span class=\"elementor-button-text\">...</span>",
+    "msg" : "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-1.png\" alt=\"client-logo-1.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-1.png\" alt=\"client-logo-1.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-2.png\" alt=\"client-logo-2.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-2.png\" alt=\"client-logo-2.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-3.png\" alt=\"client-logo-3.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-3.png\" alt=\"client-logo-3.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-4.png\" alt=\"client-logo-4.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-4.png\" alt=\"client-logo-4.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-1.png\" alt=\"client-logo-1.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-1.png\" alt=\"client-logo-1.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-2.png\" alt=\"client-logo-2.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-2.png\" alt=\"client-logo-2.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-3.png\" alt=\"client-logo-3.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-3.png\" alt=\"client-logo-3.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-4.png\" alt=\"client-logo-4.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-4.png\" alt=\"client-logo-4.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-1.png\" alt=\"client-logo-1.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-1.png\" alt=\"client-logo-1.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-2.png\" alt=\"client-logo-2.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-2.png\" alt=\"client-logo-2.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-3.png\" alt=\"client-logo-3.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-3.png\" alt=\"client-logo-3.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G94.Image",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-4.png\" alt=\"client-logo-4.png\">",
+    "msg" : "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G94" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://atid.store/wp-content/uploads/2022/01/client-logo-4.png\" alt=\"client-logo-4.png\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h3 class=\"elementor-image-box-title\">...</h3>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h3",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+    "element" : "<p class=\"elementor-image-box-description\">...</p>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+    "tag" : "p",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/women/\" class=\"elementor-button-link elementor-button elementor-size-sm\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h3 class=\"elementor-image-box-title\">...</h3>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h3",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+    "element" : "<p class=\"elementor-image-box-description\">...</p>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+    "tag" : "p",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/men/\" class=\"elementor-button-link elementor-button elementor-size-sm\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h3 class=\"elementor-image-box-title\">...</h3>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h3",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+    "element" : "<p class=\"elementor-image-box-description\">...</p>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+    "tag" : "p",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product-category/accessories/\" class=\"elementor-button-link elementor-button elementor-size-sm\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span class=\"onsale\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/atid-yellow-shoes/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/atid-yellow-shoes/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img fetchpriority=\"high\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2021/03/sports-shoe3-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2021/03/sports-shoe3-300x300.jpg 300w, https://atid.store/wp-content/uploads/2021/03/sports-shoe3-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2021/03/sports-shoe3-150x150.jpg 150w, https://atid.store/wp-content/uploads/2021/03/sports-shoe3-768x768.jpg 768w, https://atid.store/wp-content/uploads/2021/03/sports-shoe3-600x600.jpg 600w, https://atid.store/wp-content/uploads/2021/03/sports-shoe3-100x100.jpg 100w, https://atid.store/wp-content/uploads/2021/03/sports-shoe3.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/atid-yellow-shoes/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:90%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span class=\"onsale\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/atid-blue-shoes/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/atid-blue-shoes/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2021/03/sports-shoe1-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2021/03/sports-shoe1-300x300.jpg 300w, https://atid.store/wp-content/uploads/2021/03/sports-shoe1-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2021/03/sports-shoe1-150x150.jpg 150w, https://atid.store/wp-content/uploads/2021/03/sports-shoe1-768x768.jpg 768w, https://atid.store/wp-content/uploads/2021/03/sports-shoe1-600x600.jpg 600w, https://atid.store/wp-content/uploads/2021/03/sports-shoe1-100x100.jpg 100w, https://atid.store/wp-content/uploads/2021/03/sports-shoe1.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/atid-blue-shoes/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:80%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/dark-brown-jeans/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/dark-brown-jeans/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2017/12/product-m-jeans1-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2017/12/product-m-jeans1-300x300.jpg 300w, https://atid.store/wp-content/uploads/2017/12/product-m-jeans1-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2017/12/product-m-jeans1-150x150.jpg 150w, https://atid.store/wp-content/uploads/2017/12/product-m-jeans1-768x768.jpg 768w, https://atid.store/wp-content/uploads/2017/12/product-m-jeans1-600x600.jpg 600w, https://atid.store/wp-content/uploads/2017/12/product-m-jeans1-100x100.jpg 100w, https://atid.store/wp-content/uploads/2017/12/product-m-jeans1.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/dark-brown-jeans/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:80%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/blue-denim-jeans/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/blue-denim-jeans/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2017/12/product-w-jeans2-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2017/12/product-w-jeans2-300x300.jpg 300w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans2-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans2-150x150.jpg 150w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans2-768x768.jpg 768w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans2-600x600.jpg 600w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans2-100x100.jpg 100w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans2.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/blue-denim-jeans/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:0%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/basic-gray-jeans/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/basic-gray-jeans/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2017/12/product-w-jeans4-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2017/12/product-w-jeans4-300x300.jpg 300w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans4-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans4-150x150.jpg 150w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans4-768x768.jpg 768w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans4-600x600.jpg 600w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans4-100x100.jpg 100w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans4.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/basic-gray-jeans/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:80%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span class=\"onsale\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/blue-denim-shorts/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/blue-denim-shorts/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2017/12/product-w-jeans1-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2017/12/product-w-jeans1-300x300.jpg 300w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans1-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans1-150x150.jpg 150w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans1-768x768.jpg 768w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans1-600x600.jpg 600w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans1-100x100.jpg 100w, https://atid.store/wp-content/uploads/2017/12/product-w-jeans1.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/blue-denim-shorts/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:60%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span class=\"onsale\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/flamingo-tshirt/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/flamingo-tshirt/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2021/03/tshirt3-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2021/03/tshirt3-300x300.jpg 300w, https://atid.store/wp-content/uploads/2021/03/tshirt3-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2021/03/tshirt3-150x150.jpg 150w, https://atid.store/wp-content/uploads/2021/03/tshirt3-768x768.jpg 768w, https://atid.store/wp-content/uploads/2021/03/tshirt3-600x600.jpg 600w, https://atid.store/wp-content/uploads/2021/03/tshirt3-100x100.jpg 100w, https://atid.store/wp-content/uploads/2021/03/tshirt3.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/flamingo-tshirt/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:92%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/anchor-bracelet/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/anchor-bracelet/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2017/12/product-accessory2-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2017/12/product-accessory2-300x300.jpg 300w, https://atid.store/wp-content/uploads/2017/12/product-accessory2-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2017/12/product-accessory2-150x150.jpg 150w, https://atid.store/wp-content/uploads/2017/12/product-accessory2-768x768.jpg 768w, https://atid.store/wp-content/uploads/2017/12/product-accessory2-600x600.jpg 600w, https://atid.store/wp-content/uploads/2017/12/product-accessory2-100x100.jpg 100w, https://atid.store/wp-content/uploads/2017/12/product-accessory2.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/anchor-bracelet/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:78%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/boho-bangle-bracelet/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/boho-bangle-bracelet/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2017/12/product-accessory1-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2017/12/product-accessory1-300x300.jpg 300w, https://atid.store/wp-content/uploads/2017/12/product-accessory1-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2017/12/product-accessory1-150x150.jpg 150w, https://atid.store/wp-content/uploads/2017/12/product-accessory1-768x768.jpg 768w, https://atid.store/wp-content/uploads/2017/12/product-accessory1-600x600.jpg 600w, https://atid.store/wp-content/uploads/2017/12/product-accessory1-100x100.jpg 100w, https://atid.store/wp-content/uploads/2017/12/product-accessory1.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/boho-bangle-bracelet/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:100%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+    "element" : "<a href=\"https://atid.store/product/light-brown-purse/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H30" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/light-brown-purse/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://atid.store/wp-content/uploads/2017/12/product-bag1-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" srcset=\"https://atid.store/wp-content/uploads/2017/12/product-bag1-300x300.jpg 300w, https://atid.store/wp-content/uploads/2017/12/product-bag1-1024x1024.jpg 1024w, https://atid.store/wp-content/uploads/2017/12/product-bag1-150x150.jpg 150w, https://atid.store/wp-content/uploads/2017/12/product-bag1-768x768.jpg 768w, https://atid.store/wp-content/uploads/2017/12/product-bag1-600x600.jpg 600w, https://atid.store/wp-content/uploads/2017/12/product-bag1-100x100.jpg 100w, https://atid.store/wp-content/uploads/2017/12/product-bag1.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/product/light-brown-purse/\" class=\"ast-loop-product__link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<span style=\"width:60%\">...</span>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "span",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+    "element" : "<strong class=\"rating\">...</strong>",
+    "msg" : "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+    "tag" : "strong",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141",
+    "element" : "<h4 class=\"elementor-heading-title elementor-size-default\">...</h4>",
+    "msg" : "The heading structure is not logically nested. This h4 element should be an h3 to be properly nested.",
+    "tag" : "h4",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G141" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h4 class=\"elementor-heading-title elementor-size-default\">...</h4>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h4",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h2 class=\"elementor-image-box-title\">...</h2>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h2",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+    "element" : "<p class=\"elementor-image-box-description\">...</p>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+    "tag" : "p",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G18" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141",
+    "element" : "<h4 class=\"elementor-heading-title elementor-size-default\">...</h4>",
+    "msg" : "The heading structure is not logically nested. This h4 element should be an h3 to be properly nested.",
+    "tag" : "h4",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G141" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.BgImage",
+    "element" : "<h4 class=\"elementor-heading-title elementor-size-default\">...</h4>",
+    "msg" : "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 3:1.",
+    "tag" : "h4",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G145" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"elementor-button-link elementor-button elementor-size-sm\" role=\"button\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H67.2",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/globe-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "Img element is marked so that it is ignored by Assistive Technology.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H67" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/globe-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H67.2",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/quality-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "Img element is marked so that it is ignored by Assistive Technology.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H67" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/quality-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H67.2",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/tag-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "Img element is marked so that it is ignored by Assistive Technology.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H67" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/tag-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H67.2",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/lock-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "Img element is marked so that it is ignored by Assistive Technology.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H67" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img loading=\"lazy\" decoding=\"async\" width=\"120\" height=\"120\" src=\"https://atid.store/wp-content/uploads/2022/01/lock-free-img.png\" class=\"attachment-full size-full\" alt=\"\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+    "element" : "<div class=\"astra-mobile-cart-overlay\">...</div>",
+    "msg" : "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+    "tag" : "div",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/css/C32", "https://www.w3.org/WAI/WCAG21/Techniques/css/C31", "https://www.w3.org/WAI/WCAG21/Techniques/css/C33", "https://www.w3.org/WAI/WCAG21/Techniques/css/C38", "https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34", "https://www.w3.org/WAI/WCAG21/Techniques/general/G206" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+    "element" : "<div id=\"astra-mobile-cart-drawer\" class=\"astra-cart-drawer open-right\">...</div>",
+    "msg" : "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+    "tag" : "div",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/css/C32", "https://www.w3.org/WAI/WCAG21/Techniques/css/C31", "https://www.w3.org/WAI/WCAG21/Techniques/css/C33", "https://www.w3.org/WAI/WCAG21/Techniques/css/C38", "https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34", "https://www.w3.org/WAI/WCAG21/Techniques/general/G206" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+    "element" : "<button type=\"button\" class=\"astra-cart-drawer-close\">...</button>",
+    "msg" : "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+    "tag" : "button",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H91" ],
+    "type" : 1
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_2.3_2_1.G107",
+    "element" : "<button type=\"button\" class=\"astra-cart-drawer-close\">...</button>",
+    "msg" : "Check that a change of context does not occur when this input field receives focus.",
+    "tag" : "button",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G107" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/\" aria-current=\"page\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/about/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/cart-2/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"https://atid.store/contact-us/\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81",
+    "element" : "<a href=\"#\" class=\"menu-link\">...</a>",
+    "msg" : "Check that the link text combined with programmatically determined link context identifies the purpose of the link.",
+    "tag" : "a",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H77", "https://www.w3.org/WAI/WCAG21/Techniques/html/H78", "https://www.w3.org/WAI/WCAG21/Techniques/html/H79", "https://www.w3.org/WAI/WCAG21/Techniques/html/H80", "https://www.w3.org/WAI/WCAG21/Techniques/html/H81" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H67.2",
+    "element" : "<img width=\"144\" height=\"44\" src=\"https://atid.store/wp-content/uploads/2021/06/appstore-img.png\" class=\"image wp-image-2818  attachment-full size-full\" alt=\"\" style=\"max-width: 100%; height: auto;\" decoding=\"async\" loading=\"lazy\">",
+    "msg" : "Img element is marked so that it is ignored by Assistive Technology.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H67" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img width=\"144\" height=\"44\" src=\"https://atid.store/wp-content/uploads/2021/06/appstore-img.png\" class=\"image wp-image-2818  attachment-full size-full\" alt=\"\" style=\"max-width: 100%; height: auto;\" decoding=\"async\" loading=\"lazy\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.H67.2",
+    "element" : "<img width=\"144\" height=\"44\" src=\"https://atid.store/wp-content/uploads/2021/06/playstore-img.png\" class=\"image wp-image-2819  attachment-full size-full\" alt=\"\" style=\"max-width: 100%; height: auto;\" decoding=\"async\" loading=\"lazy\">",
+    "msg" : "Img element is marked so that it is ignored by Assistive Technology.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H67" ],
+    "type" : 2
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_1.1_1_1.G73,G74",
+    "element" : "<img width=\"144\" height=\"44\" src=\"https://atid.store/wp-content/uploads/2021/06/playstore-img.png\" class=\"image wp-image-2819  attachment-full size-full\" alt=\"\" style=\"max-width: 100%; height: auto;\" decoding=\"async\" loading=\"lazy\">",
+    "msg" : "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+    "tag" : "img",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G73", "https://www.w3.org/WAI/WCAG21/Techniques/general/G74" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_2.G57",
+    "element" : "",
+    "msg" : "Check that the content is ordered in a meaningful sequence when linearised, such as when style sheets are disabled.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G57" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_3.G96",
+    "element" : "",
+    "msg" : "Where instructions are provided for understanding the content, do not rely on sensory characteristics alone (such as shape, size or location) to describe objects.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G96" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_3.1_3_4.",
+    "element" : "",
+    "msg" : "Check that content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.",
+    "tag" : "#document",
+    "techniques" : [ ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_1.G14,G182",
+    "element" : "",
+    "msg" : "Check that any information conveyed using colour alone is also available in text, or through other visual cues.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G14", "https://www.w3.org/WAI/WCAG21/Techniques/general/G182" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_4.G142",
+    "element" : "",
+    "msg" : "Check that text can be resized without assistive technology up to 200 percent without loss of content or functionality.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G142" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_5.G140,C22,C30.AALevel",
+    "element" : "",
+    "msg" : "If the technologies being used can achieve the visual presentation, check that text is used to convey information rather than images of text, except when the image of text is essential to the information being conveyed, or can be visually customised to the user's requirements.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G140", "https://www.w3.org/WAI/WCAG21/Techniques/css/C22", "https://www.w3.org/WAI/WCAG21/Techniques/css/C30" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+    "element" : "",
+    "msg" : "Check that content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:     Vertical scrolling content at a width equivalent to 320 CSS pixels;     Horizontal scrolling content at a height equivalent to 256 CSS pixels;     Except for parts of the content which require two-dimensional layout for usage or meaning.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/css/C32", "https://www.w3.org/WAI/WCAG21/Techniques/css/C31", "https://www.w3.org/WAI/WCAG21/Techniques/css/C33", "https://www.w3.org/WAI/WCAG21/Techniques/css/C38", "https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34", "https://www.w3.org/WAI/WCAG21/Techniques/general/G206" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_11.G195,G207,G18,G145,G174,F78",
+    "element" : "",
+    "msg" : "Check that the visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):     User Interface Components: Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;     Graphical Objects: Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G195", "https://www.w3.org/WAI/WCAG21/Techniques/general/G207", "https://www.w3.org/WAI/WCAG21/Techniques/general/G18", "https://www.w3.org/WAI/WCAG21/Techniques/general/G145", "https://www.w3.org/WAI/WCAG21/Techniques/general/G174", "https://www.w3.org/WAI/WCAG21/Techniques/failures/F78" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_12.C36,C35",
+    "element" : "",
+    "msg" : "Check that no loss of content or functionality occurs by setting all of the following and by changing no other style property:              Line height (line spacing) to at least 1.5 times the font size;         Spacing following paragraphs to at least 2 times the font size;         Letter spacing (tracking) to at least 0.12 times the font size;         Word spacing to at least 0.16 times the font size.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/css/C36", "https://www.w3.org/WAI/WCAG21/Techniques/css/C35" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle1.Guideline1_4.1_4_13.F95",
+    "element" : "",
+    "msg" : "Check that where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:              Dismissable: A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;         Hoverable: If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;         Persistent: The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/failures/F95" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_1.2_1_4.",
+    "element" : "",
+    "msg" : "Check that if a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:              Turn off: A mechanism is available to turn the shortcut off;         Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc);         Active only on focus: The keyboard shortcut for a user interface component is only active when that component has focus.     ",
+    "tag" : "#document",
+    "techniques" : [ ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_2.2_2_2.SCR33,SCR22,G187,G152,G186,G191",
+    "element" : "",
+    "msg" : "If any part of the content moves, scrolls or blinks for more than 5 seconds, or auto-updates, check that there is a mechanism available to pause, stop, or hide the content.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR33", "https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR22", "https://www.w3.org/WAI/WCAG21/Techniques/general/G187", "https://www.w3.org/WAI/WCAG21/Techniques/general/G152", "https://www.w3.org/WAI/WCAG21/Techniques/general/G186", "https://www.w3.org/WAI/WCAG21/Techniques/general/G191" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_3.2_3_1.G19,G176",
+    "element" : "",
+    "msg" : "Check that no component of the content flashes more than three times in any 1-second period, or that the size of any flashing area is sufficiently small.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G19", "https://www.w3.org/WAI/WCAG21/Techniques/general/G176" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124,H69",
+    "element" : "",
+    "msg" : "Ensure that any common navigation elements can be bypassed; for instance, by use of skip links, header elements, or ARIA landmark roles.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G1", "https://www.w3.org/WAI/WCAG21/Techniques/general/G123", "https://www.w3.org/WAI/WCAG21/Techniques/general/G124", "https://www.w3.org/WAI/WCAG21/Techniques/html/H69" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_3.H4.2",
+    "element" : "",
+    "msg" : "If tabindex is used, check that the tab order specified by the tabindex attributes follows relationships in the content.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H4" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_5.G125,G64,G63,G161,G126,G185",
+    "element" : "",
+    "msg" : "If this Web page is not part of a linear process, check that there is more than one way of locating this Web page within a set of Web pages.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G125", "https://www.w3.org/WAI/WCAG21/Techniques/general/G64", "https://www.w3.org/WAI/WCAG21/Techniques/general/G63", "https://www.w3.org/WAI/WCAG21/Techniques/general/G161", "https://www.w3.org/WAI/WCAG21/Techniques/general/G126", "https://www.w3.org/WAI/WCAG21/Techniques/general/G185" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_6.G130,G131",
+    "element" : "",
+    "msg" : "Check that headings and labels describe topic or purpose.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G130", "https://www.w3.org/WAI/WCAG21/Techniques/general/G131" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_4.2_4_7.G149,G165,G195,C15,SCR31",
+    "element" : "",
+    "msg" : "Check that there is at least one mode of operation where the keyboard focus indicator can be visually located on user interface controls.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G149", "https://www.w3.org/WAI/WCAG21/Techniques/general/G165", "https://www.w3.org/WAI/WCAG21/Techniques/general/G195", "https://www.w3.org/WAI/WCAG21/Techniques/css/C15", "https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR31" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_5.2_5_1.",
+    "element" : "",
+    "msg" : "Check that all functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.",
+    "tag" : "#document",
+    "techniques" : [ ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_5.2_5_2.",
+    "element" : "",
+    "msg" : "Check that for functionality that can be operated using a single pointer, at least one of the following is true:         No Down-Event: The down-event of the pointer is not used to execute any part of the function;         Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;         Up Reversal: The up-event reverses any outcome of the preceding down-event;         Essential: Completing the function on the down-event is essential.",
+    "tag" : "#document",
+    "techniques" : [ ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_5.2_5_3.F96",
+    "element" : "",
+    "msg" : "Check that for user interface components with labels that include text or images of text, the name contains the text that is presented visually.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/failures/F96" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle2.Guideline2_5.2_5_4.",
+    "element" : "",
+    "msg" : "Check that functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:              Supported Interface: The motion is used to operate functionality through an accessibility supported interface;         Essential: The motion is essential for the function and doing so would invalidate the activity.     ",
+    "tag" : "#document",
+    "techniques" : [ ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_1.3_1_2.H58",
+    "element" : "",
+    "msg" : "Ensure that any change in language is marked using the lang and/or xml:lang attribute on an element, as appropriate.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/html/H58" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_2.3_2_3.G61",
+    "element" : "",
+    "msg" : "Check that navigational mechanisms that are repeated on multiple Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G61" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle3.Guideline3_2.3_2_4.G197",
+    "element" : "",
+    "msg" : "Check that components that have the same functionality within this Web page are identified consistently in the set of Web pages to which it belongs.",
+    "tag" : "#document",
+    "techniques" : [ "https://www.w3.org/WAI/WCAG21/Techniques/general/G197" ],
+    "type" : 3
+  }, {
+    "code" : "WCAG2AA.Principle4.Guideline4_1.4_1_3.",
+    "element" : "",
+    "msg" : "Check that status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.",
+    "tag" : "#document",
+    "techniques" : [ ],
+    "type" : 3
+  } ],
+  "standard" : "WCAG2AA",
+  "title" : "ATID Demo Store – ATID College Demo Store for Practicing QA Automation",
+  "url" : "https://atid.store/",
+  "warnings" : 61
+}
